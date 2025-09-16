@@ -1,0 +1,2 @@
+Note: data/processed/pm25_2023.sqlite is not versioned.
+The SQLite database (pm25_2023.sqlite) can be regenerated from raw data using Notebook 1.
