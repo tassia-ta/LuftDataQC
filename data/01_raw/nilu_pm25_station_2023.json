@@ -1,0 +1,3 @@
+{
+  "note": "data/raw/ is not versioned due to file size. The NILU PM2.5 JSON data can be re-downloaded by running Notebook 1."
+}
