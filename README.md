@@ -44,8 +44,8 @@ The goal is to bridge environmental science with data engineering through a repr
 LuftDataQC/
 │
 ├── data/
-│   ├── 01_raw/                     # Bronze Layer: Original API snapshots (not versioned) 
-│   └── 02_processed/               # Silver Layer: Cleaned SQLite database (reproducible)
+│   ├── 01_raw/                     # Original API snapshots (not versioned) 
+│   └── 02_processed/               # Cleaned SQLite database (reproducible)
 │        
 ├── notebooks/
 │   ├── 01_data_sqlite.ipynb         # Data Ingestion and Database Setup
@@ -54,7 +54,7 @@ LuftDataQC/
 │   ├── 04_report.ipynb              # Final Executive Report (EN)
 │   └── 05_report_norsk.ipynb        # Sammendragsrapport (NO)
 │ 
-├── results/                         # Gold Layer: Final Insights, Interactive Charts, and processed CSVs
+├── results/                         # Final Insights, Interactive Charts, and processed CSVs
 │ 
 ├── LICENSE                          # MIT License
 └── README.md                        # Project Guide
