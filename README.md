@@ -18,12 +18,12 @@ The goal is to bridge environmental science with data engineering through a repr
 
 ## Technical Pipeline
 
-**1. Data Ingestion (Bronze Layer)**
+**1. Data Ingestion**
 
 * PM2.5 hourly data ingested directly from NILU Open API.
 * Raw data is archived in a structured SQLite database to ensure traceability.
   
-**2. Cleaning & Validation (Silver Layer)**
+**2. Cleaning & Validation**
 
 * Inspection of missing values, outliers and instrument noise.
 * Statistical validation using non-parametric tests (Mann–Whitney U) to compare urban (Skøyen) vs. residential (Furulund) stations.
